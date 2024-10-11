@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",         // Output directory for compiled files
+    "rootDir": "./src",         // Root directory of TypeScript source files
+    "module": "commonjs",       // Module system
+    "target": "es6",            // ECMAScript target version
+    "declaration": true,        // Generates .d.ts files for type declarations
+    "sourceMap": true,          // Generates source map files
+    "strict": true,             // Enable strict type-checking options
+    "esModuleInterop": true,    // Handle default imports from modules
+    "skipLibCheck": true        // Skip type checks for library files
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
