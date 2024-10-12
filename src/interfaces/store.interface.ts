@@ -14,3 +14,11 @@ export interface ListStoreQuery {
   sort?: string;
   q?: string;
 }
+
+export interface Store {
+  id: string;
+  name: string;
+  address: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
