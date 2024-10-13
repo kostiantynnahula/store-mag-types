@@ -13,3 +13,11 @@ export enum StoreTopics {
   UPDATE_STORE = 'store.update',
   DELETE_STORE = 'store.delete',
 }
+
+export enum ScheduleTopics {
+  GET_SCHEDULE = 'schedule.get',
+  GET_SHIFT = 'schedule.getShift',
+  CREATE_SHIFT = 'schedule.createShift',
+  UPDATE_SHIFT = 'schedule.updateShift',
+  DELETE_SHIFT = 'schedule.deleteShift',
+}
