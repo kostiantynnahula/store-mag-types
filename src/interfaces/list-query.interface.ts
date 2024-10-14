@@ -6,3 +6,8 @@ export interface ListQuery {
   order?: string;
   q?: string;
 }
+
+export interface ListResponse<T> {
+  list: T[];
+  count: number;
+}
