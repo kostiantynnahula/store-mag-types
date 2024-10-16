@@ -21,3 +21,11 @@ export enum ScheduleTopics {
   UPDATE_SHIFT = 'schedule.updateShift',
   DELETE_SHIFT = 'schedule.deleteShift',
 }
+
+export enum ProductTopics {
+  LIST_PRODUCT = 'product.list',
+  CREATE_PRODUCT = 'product.create',
+  FIND_PRODUCT = 'product.findByIndex',
+  UPDATE_PRODUCT = 'product.update',
+  DELETE_PRODUCT = 'product.delete',
+}

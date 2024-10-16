@@ -23,3 +23,9 @@ export interface Auth0User {
   last_ip: string;
   logins_count: number;
 }
+
+export interface Auth0Role {
+  id: string;
+  name: string;
+  description: string;
+}

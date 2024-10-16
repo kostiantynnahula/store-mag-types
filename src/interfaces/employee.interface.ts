@@ -15,3 +15,12 @@ export interface ListEmployeeQuery {
   sort?: string;
   q?: string;
 }
+
+export interface Employee {
+  id: string;
+  name: string;
+  email: string;
+  storeId: string;
+  createdAt: string;
+  updatedAt: string;
+}

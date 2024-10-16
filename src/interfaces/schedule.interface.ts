@@ -14,3 +14,12 @@ export interface GetScheduleQuery {
   storeId?: string;
   employeeId?: string;
 }
+
+export interface Shift {
+  id: string;
+  date: Date;
+  employeeId: string;
+  storeId: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
